@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.Tourism.OnlineTourism.GenericUtility.ListenerImplementation"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Tourism.Login.CreateLoginTest"/>
+      <class name="com.Tourism.Login.CreateChangePasswordTest"/>
+       <class name="com.Tourism.Package.CreateTourPackageTest"/>
+          <class name="com.Tourism.History.CreateTourHistoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
